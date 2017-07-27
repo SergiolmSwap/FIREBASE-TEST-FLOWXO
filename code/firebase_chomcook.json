@@ -1,0 +1,123 @@
+db_clientes
+  user_id
+    firs_name
+    last_name
+    image
+    gender
+    pedidos
+    [id pedido {
+        id plato;
+        cantidad;
+        precio;
+        lat long}]
+
+db_restaurante
+  resturante_id
+      comercial_name
+      descripcion
+      img
+      geocoding
+      lat
+      long
+      lat_long concatenado
+      cartas
+      [
+        {titulo
+        img/gif
+        subtitulo}]
+      platos:
+        {
+          nombre>string
+            {
+            plato_id>>int
+            subtituto(note)>string
+            precio>ind
+            imagen>url
+            disponifilidad>true or false
+            }
+        }
+
+
+::::::::::::::::inicio::::::::::::::::
+    userid__firt_name ="firt name"
+    userid__last_name ="last name"
+    userid__image ="url"
+    userid__gender ="gender"
+
+::::::::::::::::restaurante_card::::::::::::::::
+  db_restaurante__0__nombre
+  db_restaurante__0__descripcion
+  db_restaurante__0__img
+  db_restaurante__0__geocoding
+
+  db_resturante__1__nombre
+  db_resturante__1__descripcion
+  db_resturante__1__img
+  db_resturante__1__geocoding
+
+>>>>>>>>>>>>>> ¿donde quieres comer?
+validar con API:AI
+igualar y buscar en db_restaurantes
+convertir nombre en restaurante_id
+
+restaurante**card
+
+db_restaurantes__"nombre"__comercial_name
+db_restaurantes__"nombre"__descripcion
+db_restaurantes__"nombre"__img
+
+::::::::::::::::comida_card::::::::::::::::
+
+>>>>>>>>>>>>>>¿Que quieres comer hoy?>>>>>>>>>>>>>>
+
+********************metodo_cartas********************
+
+db_restaurantes__"nombre"__carta__0__titulo
+db_restaurantes__"nombre"__carta__0__ing/gif
+db_restaurantes__"nombre"__carta__0__subtitulo
+
+db_restaurantes__"nombre"__carta__1__titulo
+db_restaurantes__"nombre"__carta__1__ing/gif
+db_restaurantes__"nombre"__carta__1__subtitulo
+
+buscar plato
+<<<<<<<<<<<<<<<quiero "plato"
+
+db_restaurantes__"nombre"__platos__"plato"__img
+db_restaurantes__"nombre"__platos__"plato"__name
+db_restaurantes__"nombre"__platos__"plato"__subtitulo
+db_restaurantes__"nombre"__platos__"plato"__precio
+
+
+///////////////////////para_pensar///////////////////////
+editar la carta online
+>>>>>>>>>>>>>>¿Que quieres editar?>>>>>>>>>>>>>>
+
+**********metodo_1**********cartas**********
+
+db_restaurantes__"nombre"__carta__0__titulo
+db_restaurantes__"nombre"__carta__0__ing/gif
+db_restaurantes__"nombre"__carta__0__subtitulo
+
+db_restaurantes__"nombre"__carta__1__titulo
+db_restaurantes__"nombre"__carta__1__ing/gif
+db_restaurantes__"nombre"__carta__1__subtitulo
+
+titulo
+
+db_restaurantes__"nombre"__carta__0__titulo
+{
+  "nombre":{
+    carta{
+      0
+    }
+  }
+}
+buscar plato
+<<<<<<<<<<<<<<<quiero editar "plato"<<<<<<<<<<<<<<<
+
+db_restaurantes__"nombre"__platos__"plato"__img
+db_restaurantes__"nombre"__platos__"plato"__name
+db_restaurantes__"nombre"__platos__"plato"__subtitulo
+db_restaurantes__"nombre"__platos__"plato"__precio
+///////////////////////para_pensar///////////////////////

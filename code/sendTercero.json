@@ -1,0 +1,25 @@
+//A TERCERO no funciona todavia
+https://graph.facebook.com/v2.6/me/messages?access_token=EAAOieZBud3ecBABcgIa7aNBUOFyJPDVQZA7ADxAf1c4hj3hDCABVv5DVzWrcG29sl7ZCZB4InlUfpQvPhgf3O0yjiQxuiQ7UHitgIiahmEZAPVB8VAYHf0ELcy2pq10ZAc6Dr4LBTZBM6EkkVx3KGGqnyz0cpZCrOdRqEoRfZAjqpcgZDZD
+{
+  "recipient":{
+  	"id":"1176865392401441"
+  },
+  "message":{
+  	"text":"hello, world!"
+  }
+}
+
+Content-Type
+//A TERCERO no funciona todavia
+https://graph.facebook.com/v2.6/me/messages?access_token=EAAOieZBud3ecBABcgIa7aNBUOFyJPDVQZA7ADxAf1c4hj3hDCABVv5DVzWrcG29sl7ZCZB4InlUfpQvPhgf3O0yjiQxuiQ7UHitgIiahmEZAPVB8VAYHf0ELcy2pq10ZAc6Dr4LBTZBM6EkkVx3KGGqnyz0cpZCrOdRqEoRfZAjqpcgZDZD
+{
+  "recipient":{
+  	"id":"1176865392401441"
+  },
+  "message":{
+  	"text":"hello, world!"
+  }
+}
+
+Content-Type
+application/json

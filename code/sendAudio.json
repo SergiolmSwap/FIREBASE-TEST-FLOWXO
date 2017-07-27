@@ -1,0 +1,38 @@
+//mandar un audio estoy utilizando la paguina instaud
+https://graph.facebook.com/v2.6/me/messages?access_token=EAAOieZBud3ecBABcgIa7aNBUOFyJPDVQZA7ADxAf1c4hj3hDCABVv5DVzWrcG29sl7ZCZB4InlUfpQvPhgf3O0yjiQxuiQ7UHitgIiahmEZAPVB8VAYHf0ELcy2pq10ZAc6Dr4LBTZBM6EkkVx3KGGqnyz0cpZCrOdRqEoRfZAjqpcgZDZD
+{
+  "recipient":{
+    "id":"{{usuario_envia_imagen.user_id}}"
+  },
+  "message":{
+    "attachment":{
+      "type":"audio",
+      "payload":{
+        "url":"https://instaud.io/_/S1s.mp3"
+
+      }
+    }
+  }
+}
+
+content-type
+application/json
+//mandar un audio estoy utilizando la paguina instaud
+https://graph.facebook.com/v2.6/me/messages?access_token=EAAOieZBud3ecBABcgIa7aNBUOFyJPDVQZA7ADxAf1c4hj3hDCABVv5DVzWrcG29sl7ZCZB4InlUfpQvPhgf3O0yjiQxuiQ7UHitgIiahmEZAPVB8VAYHf0ELcy2pq10ZAc6Dr4LBTZBM6EkkVx3KGGqnyz0cpZCrOdRqEoRfZAjqpcgZDZD
+{
+  "recipient":{
+    "id":"{{usuario_envia_imagen.user_id}}"
+  },
+  "message":{
+    "attachment":{
+      "type":"audio",
+      "payload":{
+        "url":"https://instaud.io/_/S1s.mp3"
+
+      }
+    }
+  }
+}
+
+content-type
+application/json

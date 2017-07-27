@@ -1,0 +1,85 @@
+//REENVIAR IMAGEN MANDADA POR usuario_envia_imagen
+https://graph.facebook.com/v2.6/me/messages?access_token=EAAOieZBud3ecBABcgIa7aNBUOFyJPDVQZA7ADxAf1c4hj3hDCABVv5DVzWrcG29sl7ZCZB4InlUfpQvPhgf3O0yjiQxuiQ7UHitgIiahmEZAPVB8VAYHf0ELcy2pq10ZAc6Dr4LBTZBM6EkkVx3KGGqnyz0cpZCrOdRqEoRfZAjqpcgZDZD
+{
+  "recipient":{
+    "id":"{{usuario_envia_imagen.user_id}}"
+  },
+  "message":{
+    "attachment":{
+      "type":"image",
+      "payload":{
+        "url":"{{usuario_envia_imagen.file_url}}"
+      }
+    }
+  }
+}
+
+content-type
+application/json
+
+
+
+
+//</>CODIFICAR URL */*/al codificar el url asi se puede mandar al url de thumbnail sino no se puede mandar
+var url = inputs.url;
+var opts = encodeURIComponent(url);
+
+resolve(encodeURIComponent(url));
+
+//estraer datos
+url
+{{usuario_envia_imagen.file_url}}
+
+
+//hacer in print pant de la imagen que me mandan
+GET IMAGEN DE
+https://api.thumbnail.ws/api/aba4dd30efb0ff82b34da081470311132da974da1dfe/thumbnail/get?url={{url_codificacion.result}}&width=550
+
+PRUEVA LINK CODIFICADO
+ https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+ {
+  "requests": [
+    {
+      "image": {
+        "source": {
+          "image_uri": "{{url_codificacion.result}}"
+        }
+      },
+      "features": [
+        {
+          "type": "LABEL_DETECTION"
+        }
+      ]
+    }
+  ]
+}
+
+//encontrar subir el thumbnail a google vsion
+POR FIN
+ https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+ {
+  "requests": [
+    {
+      "image": {
+        "source": {
+          "image_uri": "https://api.thumbnail.ws/api/aba4dd30efb0ff82b34da081470311132da974da1dfe/thumbnail/get?url={{url_codificacion.result}}&width=550"
+        }
+      },
+      "features": [
+        {
+          "type": "LABEL_DETECTION"
+        }
+      ]
+    }
+  ]
+}
+
+
+TEST IMAGEN
+LO QUE ME ENVIASTE ES:
+ {{por_fin.data__responses__0__labelAnnotations__0__description}} {{por_fin.data__responses__0__labelAnnotations__0__score}}
+
+ {{por_fin.data__responses__0__labelAnnotations__1__description}} {{por_fin.data__responses__0__labelAnnotations__1__score}}
+
+ {{por_fin.data__responses__0__labelAnnotations__2__description}} {{por_fin.data__responses__0__labelAnnotations__2__score}}
+

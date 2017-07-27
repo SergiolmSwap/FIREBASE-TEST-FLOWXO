@@ -1,0 +1,24 @@
+
+//vercion antigua hacer 1 por uno con un contador //////descontinuado///////
+https://maps.googleapis.com/maps/api/directions/json?origin={{usuario_envia_ubicacion.metadata__lat}},{{usuario_envia_ubicacion.metadata__long}}&destination={{search_mensajero_segun_contador.results_+_gsx:lat 1}},{{search_mensajero_segun_contador.results_+_gsx:long 1}}&waypoints={{buscar_lat_long_rstaurant.results_+_gsx:lat 1}},{{buscar_lat_long_rstaurant.results_+_gsx:long 1}}&avoid=highways&mode=driving&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+https://maps.googleapis.com/maps/api/directions/json?origin={{location.metadata__lat}},{{location.metadata__long}}&destination=,&waypoints={{buscar_lat_long_rstaurant.results_+_gsx:lat 1}},{{buscar_lat_long_rstaurant.results_+_gsx:long 1}}&avoid=highways&mode=driving&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+https://maps.googleapis.com/maps/api/directions/json?origin={{location.metadata__lat}},{{location.metadata__long}}&destination={{search_socio_segun_contador.results_+_gsx:lat 1}},{{search_socio_segun_contador.results_+_gsx:long 1}}&avoid=highways&mode=driving&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+LAT LONG UBICACION
+
+SEANCH TIENDA DE MI ZONA
+
+SEANCH SOCIO SEGUN CONTADOR
+{{search_socio_segun_contador.results_+_gsx:lat 1}},{{search_socio_segun_contador.results_+_gsx:long 1}}
+
+
+//vercion antigua hacer 1 por uno con un contador //////descontinuado///////
+https://maps.googleapis.com/maps/api/directions/json?origin={{usuario_envia_ubicacion.metadata__lat}},{{usuario_envia_ubicacion.metadata__long}}&destination={{search_mensajero_segun_contador.results_+_gsx:lat 1}},{{search_mensajero_segun_contador.results_+_gsx:long 1}}&waypoints={{buscar_lat_long_rstaurant.results_+_gsx:lat 1}},{{buscar_lat_long_rstaurant.results_+_gsx:long 1}}&avoid=highways&mode=driving&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+https://maps.googleapis.com/maps/api/directions/json?origin={{location.metadata__lat}},{{location.metadata__long}}&destination=,&waypoints={{buscar_lat_long_rstaurant.results_+_gsx:lat 1}},{{buscar_lat_long_rstaurant.results_+_gsx:long 1}}&avoid=highways&mode=driving&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+https://maps.googleapis.com/maps/api/directions/json?origin={{location.metadata__lat}},{{location.metadata__long}}&destination={{search_socio_segun_contador.results_+_gsx:lat 1}},{{search_socio_segun_contador.results_+_gsx:long 1}}&avoid=highways&mode=driving&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+LAT LONG UBICACION
+
+SEANCH TIENDA DE MI ZONA
+
+SEANCH SOCIO SEGUN CONTADOR
+{{search_socio_segun_contador.results_+_gsx:lat 1}},{{search_socio_segun_contador.results_+_gsx:long 1}}
+

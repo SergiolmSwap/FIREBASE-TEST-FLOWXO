@@ -1,0 +1,18 @@
+https://graph.facebook.com/v2.6/me/messages?access_token=EAAOieZBud3ecBAChc0WcSpzmzTssjx7yyB1kLSDZApBspivMKZBfBdb3ZAykqbOkZCfQ4ZBefFSsPQUP9j2ETDzq0UECpZB9fbvgiiozF0llXeTQoBjZBgRgCDuIPjAyoPFzKQ3tgmAlR9ZAAidlCInX3OU5goZAWHv2IVj0dbfORMQwZDZD
+
+
+{
+  "recipient":{
+    "id":"{{user_sends_the_bot_their_location.user_id}}"
+  },
+  "message":{
+    "text":"Please share your location:",
+    "quick_replies":[
+      {
+        "content_type":"location",
+      }
+    ]
+  }
+}
+
+//Content-Type     application/json

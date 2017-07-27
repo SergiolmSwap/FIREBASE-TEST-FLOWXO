@@ -1,0 +1,131 @@
+//hacer static map
+https://maps.googleapis.com/maps/api/staticmap?center={{user_sends_the_bot_their_location.metadata__lat}},{{user_sends_the_bot_their_location.metadata__long}}&zoom=13&size=600x300&maptype=roadmap&markers=color:blue%7Clabel:S%7C4{{user_sends_the_bot_their_location.metadata__lat}},{{user_sends_the_bot_their_location.metadata__long}}&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+//con icono de la lat long que quieres
+https://maps.googleapis.com/maps/api/staticmap?center={{usuario_envia_ubicacion.metadata__lat}},{{usuario_envia_ubicacion.metadata__long}}&zoom=17&size=600x600&maptype=roadmap&markers=color:blue%7Clabel:I%7C{{usuario_envia_ubicacion.metadata__lat}},{{usuario_envia_ubicacion.metadata__long}}&format=png&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+
+//ejemplo de un static map
+https://maps.googleapis.com/maps/api/staticmap?center=-12.061044,-75.19541&zoom=17&size=600x600&maptype=roadmap&markers=color:blue%7Clabel:C%7C-12.061044,-75.19541&format=jpg&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+
+
+//ejemple de extraer metadata
+{{user_sends_the_bot_their_location.metadata__lat}}
+{{user_sends_the_bot_their_location.metadata__long}}
+//usar el dato extraido 
+https://maps.googleapis.com/maps/api/staticmap?center={{user_sends_the_bot_their_location.metadata__lat}},{{user_sends_the_bot_their_location.metadata__long}}&zoom=17&size=600x600&maptype=roadmap&markers=color:blue%7Clabel:I%7C{{user_sends_the_bot_their_location.metadata__lat}},{{user_sends_the_bot_their_location.metadata__long}}&format=png&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+
+
+
+//api directions ejemplo de uso sin waypoints
+
+https://maps.googleapis.com/maps/api/directions/json?origin=-12.060836,-75.195284&destination=-12.059953,-75.203222&region=es&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+
+//distancia entre 3 puntos con waypoints
+https://maps.googleapis.com/maps/api/directions/json?origin=-12.0514814,-75.201324&destination=-12.0528731,-75.2187724&waypoints=-12.043745,-75.217964&key=AIzaSyDqP-8dcrgKBK8lL0qlltxy0NrhFlePM6E
+
+
+//api directions configurado para walking
+https://maps.googleapis.com/maps/api/directions/json?origin=-12.060836,-75.195284&destination={{user_sends_the_bot_their_location.metadata__lat}},{{user_sends_the_bot_their_location.metadata__long}}&avoid=highways&mode=walking&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+https://maps.googleapis.com/maps/api/directions/json?origin={{usuario_envia_ubicacion.metadata__lat}},{{usuario_envia_ubicacion.metadata__long}}&destination=-12.059919,-75.203204&avoid=highways&mode=walking&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+
+//>ejemplo de uso de directions con modo walking
+https://maps.googleapis.com/maps/api/directions/json?origin=-12.060836,-75.195284&destination=-12.059953,-75.203222&avoid=highways&mode=walking&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+
+https://maps.googleapis.com/maps/api/directions/json?origin={{usuario_envia_ubicacion.metadata__lat}},{{usuario_envia_ubicacion.metadata__long}}&destination=-12.059919,-75.203204&avoid=highways&mode=walking&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+//datos que se puede extraer
+
+{{duracion_de_envio.data__status}}
+
+{{duracion_de_envio.data__routes__0__copyrights}}
+
+{{duracion_de_envio.data__routes__0__legs__0__end_address}}
+{{duracion_de_envio.data__routes__0__legs__0__start_address}}
+
+{{duracion_de_envio.data__routes__0__legs__0__duration__text}}
+{{duracion_de_envio.data__routes__0__legs__0__distance__text}}
+
+
+
+//geocodificacion extraer datos de la lat y long mandada
+//por ejemplo ciudad numbre de la calle es necesario que este acompañado con un static map para evitar confuciones
+
+https://maps.googleapis.com/maps/api/geocode/json?latlng={{usuario_envia_ubicacion.metadata__lat}},{{usuario_envia_ubicacion.metadata__long}}&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+
+{{duracion_de_envio_por_numero.data__routes__0__legs__0__end_address}}
+tu direccion es {{duracion_de_envio_por_numero.data__routes__0__legs__0__start_address}}
+
+
+https://www.google.com/maps/dir/-12.0514814,-75.201324/-12.043745,-75.217964/-12.0528731,-75.2187724,15z
+
+puntos
+https://maps.app.goo.gl/?link=https://www.google.com/maps/dir/-12.0514814,-75.201324/-12.054460,-75.203443/
+
+https://maps.app.goo.gl/?link=https://www.google.com/maps/dir/-12.0514814,-75.201324/-12.054460,-75.203443#Intent;package=com.google.android.gms
+
+
+https://www.google.com.pe/maps/dir/-12.0575585,-75.1774681/-12.054770,-75.217060
+
+//hacer static map
+https://maps.googleapis.com/maps/api/staticmap?center={{user_sends_the_bot_their_location.metadata__lat}},{{user_sends_the_bot_their_location.metadata__long}}&zoom=13&size=600x300&maptype=roadmap&markers=color:blue%7Clabel:S%7C4{{user_sends_the_bot_their_location.metadata__lat}},{{user_sends_the_bot_their_location.metadata__long}}&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+//con icono de la lat long que quieres
+https://maps.googleapis.com/maps/api/staticmap?center={{usuario_envia_ubicacion.metadata__lat}},{{usuario_envia_ubicacion.metadata__long}}&zoom=17&size=600x600&maptype=roadmap&markers=color:blue%7Clabel:I%7C{{usuario_envia_ubicacion.metadata__lat}},{{usuario_envia_ubicacion.metadata__long}}&format=png&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+
+//ejemplo de un static map
+https://maps.googleapis.com/maps/api/staticmap?center=-12.061044,-75.19541&zoom=17&size=600x600&maptype=roadmap&markers=color:blue%7Clabel:C%7C-12.061044,-75.19541&format=jpg&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+
+
+//ejemple de extraer metadata
+{{user_sends_the_bot_their_location.metadata__lat}}
+{{user_sends_the_bot_their_location.metadata__long}}
+//usar el dato extraido 
+https://maps.googleapis.com/maps/api/staticmap?center={{user_sends_the_bot_their_location.metadata__lat}},{{user_sends_the_bot_their_location.metadata__long}}&zoom=17&size=600x600&maptype=roadmap&markers=color:blue%7Clabel:I%7C{{user_sends_the_bot_their_location.metadata__lat}},{{user_sends_the_bot_their_location.metadata__long}}&format=png&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+
+
+
+//api directions ejemplo de uso sin waypoints
+
+https://maps.googleapis.com/maps/api/directions/json?origin=-12.060836,-75.195284&destination=-12.059953,-75.203222&region=es&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+
+//distancia entre 3 puntos con waypoints
+https://maps.googleapis.com/maps/api/directions/json?origin=-12.0514814,-75.201324&destination=-12.0528731,-75.2187724&waypoints=-12.043745,-75.217964&key=AIzaSyDqP-8dcrgKBK8lL0qlltxy0NrhFlePM6E
+
+
+//api directions configurado para walking
+https://maps.googleapis.com/maps/api/directions/json?origin=-12.060836,-75.195284&destination={{user_sends_the_bot_their_location.metadata__lat}},{{user_sends_the_bot_their_location.metadata__long}}&avoid=highways&mode=walking&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+https://maps.googleapis.com/maps/api/directions/json?origin={{usuario_envia_ubicacion.metadata__lat}},{{usuario_envia_ubicacion.metadata__long}}&destination=-12.059919,-75.203204&avoid=highways&mode=walking&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+
+//>ejemplo de uso de directions con modo walking
+https://maps.googleapis.com/maps/api/directions/json?origin=-12.060836,-75.195284&destination=-12.059953,-75.203222&avoid=highways&mode=walking&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+
+https://maps.googleapis.com/maps/api/directions/json?origin={{usuario_envia_ubicacion.metadata__lat}},{{usuario_envia_ubicacion.metadata__long}}&destination=-12.059919,-75.203204&avoid=highways&mode=walking&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+//datos que se puede extraer
+
+{{duracion_de_envio.data__status}}
+
+{{duracion_de_envio.data__routes__0__copyrights}}
+
+{{duracion_de_envio.data__routes__0__legs__0__end_address}}
+{{duracion_de_envio.data__routes__0__legs__0__start_address}}
+
+{{duracion_de_envio.data__routes__0__legs__0__duration__text}}
+{{duracion_de_envio.data__routes__0__legs__0__distance__text}}
+
+
+
+//geocodificacion extraer datos de la lat y long mandada
+//por ejemplo ciudad numbre de la calle es necesario que este acompañado con un static map para evitar confuciones
+
+https://maps.googleapis.com/maps/api/geocode/json?latlng={{usuario_envia_ubicacion.metadata__lat}},{{usuario_envia_ubicacion.metadata__long}}&key=AIzaSyAjDlkuJ1c79Nn6gfnTCKaUI20VR7Ja60g
+
+{{duracion_de_envio_por_numero.data__routes__0__legs__0__end_address}}
+tu direccion es {{duracion_de_envio_por_numero.data__routes__0__legs__0__start_address}}
+
+
+https://www.google.com/maps/dir/-12.0514814,-75.201324/-12.043745,-75.217964/-12.0528731,-75.2187724,15z
+
+puntos
+https://maps.app.goo.gl/?link=https://www.google.com/maps/dir/-12.0514814,-75.201324/-12.054460,-75.203443/
+
+https://maps.app.goo.gl/?link=https://www.google.com/maps/dir/-12.0514814,-75.201324/-12.054460,-75.203443#Intent;package=com.google.android.gms
+
+
+https://www.google.com.pe/maps/dir/-12.0575585,-75.1774681/-12.054770,-75.217060

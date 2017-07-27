@@ -1,0 +1,35 @@
+//mandar un video que se sube a una con el link que se quieres
+VIDEO
+https://graph.facebook.com/v2.6/me/messages?access_token=EAAOieZBud3ecBABcgIa7aNBUOFyJPDVQZA7ADxAf1c4hj3hDCABVv5DVzWrcG29sl7ZCZB4InlUfpQvPhgf3O0yjiQxuiQ7UHitgIiahmEZAPVB8VAYHf0ELcy2pq10ZAc6Dr4LBTZBM6EkkVx3KGGqnyz0cpZCrOdRqEoRfZAjqpcgZDZD
+{
+  "recipient":{
+    "id":"{{usuario_envia_imagen.user_id}}"
+  },
+  "message":{
+    "attachment":{
+      "type":"video",
+      "payload":{
+        "url":"http://clips.vorwaerts-gmbh.de/VfE_html5.mp4"
+      }
+    }
+  }
+}
+content-type
+//mandar un video que se sube a una con el link que se quieres
+VIDEO
+https://graph.facebook.com/v2.6/me/messages?access_token=EAAOieZBud3ecBABcgIa7aNBUOFyJPDVQZA7ADxAf1c4hj3hDCABVv5DVzWrcG29sl7ZCZB4InlUfpQvPhgf3O0yjiQxuiQ7UHitgIiahmEZAPVB8VAYHf0ELcy2pq10ZAc6Dr4LBTZBM6EkkVx3KGGqnyz0cpZCrOdRqEoRfZAjqpcgZDZD
+{
+  "recipient":{
+    "id":"{{usuario_envia_imagen.user_id}}"
+  },
+  "message":{
+    "attachment":{
+      "type":"video",
+      "payload":{
+        "url":"http://clips.vorwaerts-gmbh.de/VfE_html5.mp4"
+      }
+    }
+  }
+}
+content-type
+application/json
