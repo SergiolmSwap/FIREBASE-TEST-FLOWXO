@@ -6,6 +6,7 @@ db_clientes
     image
     gender
     pedidos
+    PEDIDOS_ACTIVOS
     [id pedido {
         id plato;
         cantidad;
@@ -22,7 +23,7 @@ db_restaurante
       long
       lat_long concatenado
       cartas
-      [
+    *pude que no este aqui  [
         {titulo
         img/gif
         subtitulo}]
