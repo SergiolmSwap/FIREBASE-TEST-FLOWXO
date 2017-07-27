@@ -62,6 +62,10 @@ validar con API:AI
 igualar y buscar en db_restaurantes
 convertir nombre en restaurante_id
 
+
+resultado de busqueda
+{{restaurante.data__result__parameters__restaurantes}}
+
 restaurante**card
 
 db_restaurantes__"nombre"__comercial_name
