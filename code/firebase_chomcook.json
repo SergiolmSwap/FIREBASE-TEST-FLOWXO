@@ -87,6 +87,10 @@ db_restaurantes__"nombre"__carta__1__ing/gif
 db_restaurantes__"nombre"__carta__1__subtitulo
 
 buscar plato
+
+
+{{platos_2.data__result__parameters__platos}}
+
 <<<<<<<<<<<<<<<quiero "plato"
 
 db_restaurantes__"nombre"__platos__"plato"__img
