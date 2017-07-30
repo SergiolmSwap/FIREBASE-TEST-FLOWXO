@@ -1,0 +1,33 @@
+{
+  "recipient":{
+    "id":"{{ordenar.user_id}}"
+  },
+  "message":{
+    "attachment":{
+      "type":"template",
+      "payload":{
+        "template_type":"receipt",
+        "recipient_name":"{{ordenar.user_name}}",
+        "order_number":"{{random.result}}",
+        "currency":"PEN",
+        "payment_method":"Contraentrega",
+        "timestamp":"1428444852",
+        "elements":[
+          {
+            "title":"{{context.data__parameters__restaurantes}}",
+            "subtitle":"{{context.data__parameters__platos}}",
+            "quantity":{{context.data__parameters__number}},
+            "price":{{firebase_platos.data__costo}},
+            "currency":"PEN",
+            "image_url":"{{firebase_platos.data__imgp}}"
+          }
+        ],
+        "summary":{
+          "subtotal":{{calculadora.result__total}},
+          "shipping_cost":2.99,
+          "total_cost":{{calculadora.result__adicional}}
+        }
+      }
+    }
+  }
+}
