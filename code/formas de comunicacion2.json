@@ -1,0 +1,27 @@
+{
+  "recipient":{
+    "id":"{{usuario_envia_ubicacion.user_id}}"
+  },
+  "message":{
+    "attachment":{
+      "type":"template",
+      "payload":{
+        "template_type":"button",
+        "text":"Formas de comunicarse con mensajero",
+        "buttons":[
+          {
+          "type":"phone_number",
+          "title":"Llamada telefonica",
+          "payload":"+51947464880"
+          },
+ {
+        "type":"web_url",
+        "url":"https://www.google.com/maps/dir/{{fb_userm.data}}/{{usuario_envia_ubicacion.metadata__lat}},{{usuario_envia_ubicacion.metadata__long}}",
+        "title":"Ruta",
+        "webview_height_ratio": "compact"
+      }
+        ]
+      }
+    }
+  }
+}

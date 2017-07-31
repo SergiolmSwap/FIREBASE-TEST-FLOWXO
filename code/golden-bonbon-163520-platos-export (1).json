@@ -1,0 +1,10 @@
+{
+  "pizza" : {
+    "costo" : 12,
+    "imgp" : "https://media.betazeta.com/sabrosia/2016/05/maxresdefault.jpg"
+  },
+  "pollo a la leña" : {
+    "costo" : "disponible",
+    "imgp" : "https://s-media-cache-ak0.pinimg.com/originals/38/42/b1/3842b1e9ffc53e16aaca3e1d00badaab.jpg"
+  }
+}

@@ -6,7 +6,125 @@
     }, {
       "id" : 1395592750487461,
       "lat" : "|-12.048112,-75.198539"
-    }, {
+    }, {{
+  "Hawaiana I": {
+    "costo": 15.5
+  },
+  "Hawaiana II": {
+    "costo": 15.5
+  },
+  "Hawaiana III": {
+    "costo": 16.5
+  },
+  "Americana": {
+    "costo": 12.5
+  },
+  "Peperoni": {
+    "costo": 16.5
+  },
+  "Mexicana": {
+    "costo": 18.5
+  },
+  "TOTO's PIZZA": {
+    "costo": 19.5
+  },
+  "Vegetariana": {
+    "costo": 14.5
+  },
+  "Portuguesa": {
+    "costo": 16.5
+  },
+  "Española": {
+    "costo": 15.5
+  },
+  "Alemana": {
+    "costo": 15.5
+  },
+  "Italiana": {
+    "costo": 13.5
+  },
+  "Continental": {
+    "costo": 14.5
+  },
+  "Brasilera": {
+    "costo": 16.5
+  },
+  "Argentina": {
+    "costo": 15.5
+  },
+  "Ramchera": {
+    "costo": 16.5
+  },
+  "Napolitana": {
+    "costo": 10.5
+  },
+  "Oriental": {
+    "costo": 16.5
+  },
+  "Pan al Ajo simple": {
+    "costo": 3
+  },
+  "Pan al Ajo Especial": {
+    "costo": 5
+  },
+  "Pan al Ajo Hawaiano": {
+    "costo": 8
+  },
+  "Pan al Ajo Toto's Pizza": {
+    "costo": 8
+  },
+  "Tallarin a la Bolognesa": {
+    "costo": 10
+  },
+  "Tallarin a lo Alfredo": {
+    "costo": 12
+  },
+  "Tallarines dos sabores": {
+    "costo": 14
+  },
+  "Tallarin Tropical": {
+    "costo": 15
+  },
+  "Lasagna de Carne y Queso": {
+    "costo": 12
+  },
+  "Lasagna de Jamon y Queso en Salsa Pomodoro": {
+    "costo": 12
+  },
+  "Lasagna de Jamon y Queso en Salsa Alfredo": {
+    "costo": 12
+  },
+  "Lasagna Primavera": {
+    "costo": 14
+  },
+  "Lasagna de Pollo y Champiñones": {
+    "costo": 16
+  },
+  "Canelone de Jamon y Queso a lo Pomodoro": {
+    "costo": 12
+  },
+  "Canelone de Jamon y Queso a lo Alfredo": {
+    "costo": 12
+  },
+  "Fettuccini a lo Alfredo": {
+    "costo": 14
+  },
+  "Fettuccini a la Bolognesa": {
+    "costo": 14
+  },
+  "Parrilla Clasica": {
+    "costo": 12
+  },
+  "Parrilla en Salsa BBQ": {
+    "costo": 16
+  },
+  "Parrilla Hawaiana": {
+    "costo": 16
+  },
+  "Lasagna 3 sabores": {
+    "costo": 14
+  }
+}
       "id" : 1155432431234933,
       "lat" : "|-12.056973,-75.202977"
     }, {

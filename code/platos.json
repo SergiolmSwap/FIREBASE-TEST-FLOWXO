@@ -1,0 +1,257 @@
+{
+  "id": "9f80b7d5-c8d4-4eb9-8a14-385439b2858a",
+  "name": "platos",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Hawaiana I",
+      "synonyms": [
+        "Hawaiana I",
+        "hawallana 1",
+        "hawallana uno"
+      ]
+    },
+    {
+      "value": "Hawaiana II",
+      "synonyms": [
+        "Hawaiana II",
+        "Hawaiana 2",
+        "Hawaiana dos",
+        "hawallana dos"
+      ]
+    },
+    {
+      "value": "Hawaiana III",
+      "synonyms": [
+        "Hawaiana III",
+        "hawallana tres",
+        "hawaillana 3"
+      ]
+    },
+    {
+      "value": "Americana",
+      "synonyms": [
+        "Americana"
+      ]
+    },
+    {
+      "value": "Peperoni",
+      "synonyms": [
+        "Peperoni"
+      ]
+    },
+    {
+      "value": "Mexicana",
+      "synonyms": [
+        "Mexicana"
+      ]
+    },
+    {
+      "value": "TOTO's PIZZA",
+      "synonyms": [
+        "TOTO's PIZZA"
+      ]
+    },
+    {
+      "value": "Vegetariana",
+      "synonyms": [
+        "Vegetariana"
+      ]
+    },
+    {
+      "value": "Portuguesa",
+      "synonyms": [
+        "Portuguesa"
+      ]
+    },
+    {
+      "value": "Española",
+      "synonyms": [
+        "Española"
+      ]
+    },
+    {
+      "value": "Alemana",
+      "synonyms": [
+        "Alemana"
+      ]
+    },
+    {
+      "value": "Italiana",
+      "synonyms": [
+        "Italiana"
+      ]
+    },
+    {
+      "value": "Continental",
+      "synonyms": [
+        "Continental"
+      ]
+    },
+    {
+      "value": "Brasilera",
+      "synonyms": [
+        "Brasilera"
+      ]
+    },
+    {
+      "value": "Argentina",
+      "synonyms": [
+        "Argentina"
+      ]
+    },
+    {
+      "value": "Ramchera",
+      "synonyms": [
+        "Ramchera"
+      ]
+    },
+    {
+      "value": "Napolitana",
+      "synonyms": [
+        "Napolitana"
+      ]
+    },
+    {
+      "value": "Oriental",
+      "synonyms": [
+        "Oriental"
+      ]
+    },
+    {
+      "value": "Pan al Ajo simple",
+      "synonyms": [
+        "Pan al Ajo simple"
+      ]
+    },
+    {
+      "value": "Pan al Ajo Especial",
+      "synonyms": [
+        "Pan al Ajo Especial"
+      ]
+    },
+    {
+      "value": "Pan al Ajo Hawaiano",
+      "synonyms": [
+        "Pan al Ajo Hawaiano"
+      ]
+    },
+    {
+      "value": "Pan al Ajo Toto's Pizza",
+      "synonyms": [
+        "Pan al Ajo Toto's Pizza",
+        "pan al ajo totos"
+      ]
+    },
+    {
+      "value": "Tallarín a la Bolognesa",
+      "synonyms": [
+        "Tallarín a la Bolognesa"
+      ]
+    },
+    {
+      "value": "Tallarín a lo Alfredo",
+      "synonyms": [
+        "Tallarín a lo Alfredo"
+      ]
+    },
+    {
+      "value": "Tallarines dos sabores",
+      "synonyms": [
+        "Tallarines dos sabores"
+      ]
+    },
+    {
+      "value": "Tallarín Tropical",
+      "synonyms": [
+        "Tallarín Tropical"
+      ]
+    },
+    {
+      "value": "Lasagna de Carne y Queso",
+      "synonyms": [
+        "Lasagna de Carne y Queso"
+      ]
+    },
+    {
+      "value": "Lasagna de Jamón y Queso en Salsa Pomodoro",
+      "synonyms": [
+        "Lasagna de Jamón y Queso en Salsa Pomodoro"
+      ]
+    },
+    {
+      "value": "Lasagna de Jamón y Queso en Salsa Alfredo",
+      "synonyms": [
+        "Lasagna de Jamón y Queso en Salsa Alfredo"
+      ]
+    },
+    {
+      "value": "Lasagna Primavera",
+      "synonyms": [
+        "Lasagna Primavera"
+      ]
+    },
+    {
+      "value": "Lasagna de Pollo y Champiñones",
+      "synonyms": [
+        "Lasagna de Pollo y Champiñones"
+      ]
+    },
+    {
+      "value": "Canelone de Jamón y Queso a lo Pomodoro",
+      "synonyms": [
+        "Canelone de Jamón y Queso a lo Pomodoro"
+      ]
+    },
+    {
+      "value": "Canelone de Jamón y Queso a lo Alfredo",
+      "synonyms": [
+        "Canelone de Jamón y Queso a lo Alfredo"
+      ]
+    },
+    {
+      "value": "Fettuccini a lo Alfredo",
+      "synonyms": [
+        "Fettuccini a lo Alfredo"
+      ]
+    },
+    {
+      "value": "Fettuccini a la Bolognesa",
+      "synonyms": [
+        "Fettuccini a la Bolognesa"
+      ]
+    },
+    {
+      "value": "Parrilla Clásica",
+      "synonyms": [
+        "Parrilla Clásica"
+      ]
+    },
+    {
+      "value": "Parrilla en Salsa BBQ",
+      "synonyms": [
+        "Parrilla en Salsa BBQ"
+      ]
+    },
+    {
+      "value": "Parrilla Hawaiana",
+      "synonyms": [
+        "Parrilla Hawaiana"
+      ]
+    },
+    {
+      "value": "Lasagna 3 sabores",
+      "synonyms": [
+        "Lasagna 3 sabores"
+      ]
+    },
+    {
+      "value": "Lasagna 2 sabores",
+      "synonyms": [
+        "Lasagna de Pollo y Champiñones"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}
