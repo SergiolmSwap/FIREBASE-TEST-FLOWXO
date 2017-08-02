@@ -1,20 +1,17 @@
 {
   "Alemana" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Americana" : {
