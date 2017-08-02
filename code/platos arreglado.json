@@ -15,687 +15,558 @@
     }
   },
   "Americana" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
-    }
-  },
-  "Argentina" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Brasilera" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Canelone de Jamon y Queso a lo Alfredo" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Canelone de Jamon y Queso a lo Pomodoro" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Continental" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Española" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Fettuccini a la Bolognesa" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Fettuccini a lo Alfredo" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Hawaiana I" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Hawaiana II" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Hawaiana III" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Italiana" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Lasagna 3 sabores" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Lasagna Primavera" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Lasagna de Carne y Queso" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Lasagna de Jamon y Queso en Salsa Alfredo" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Lasagna de Jamon y Queso en Salsa Pomodoro" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Lasagna de Pollo y Champiñones" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Mexicana" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Napolitana" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Oriental" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Pan al Ajo Especial" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Pan al Ajo Hawaiano" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Pan al Ajo Toto's Pizza" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Pan al Ajo simple" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Parrilla Clasica" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Parrilla Hawaiana" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Parrilla en Salsa BBQ" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
-  },
+    },
   "Peperoni" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Portuguesa" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Ramchera" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "TOTO's PIZZA" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Tallarin Tropical" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Tallarin a la Bolognesa" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Tallarin a lo Alfredo" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Tallarines dos sabores" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   },
   "Vegetariana" : {
-    "buttons" : {
-      "0" : {
-        "payload" : "Mediana",
-        "title" : "Mediana S/15.5",
-        "type" : "postback"
-      },
-      "1" : {
-        "payload" : "Familiar",
-        "title" : "Familiar S/30",
-        "type" : "postback"
-      },
-      "costos" : {
-        "Familiar" : 30,
-        "Mediana" : 15.5
-      }
+    "buttons" : [ {
+      "payload" : "Mediana",
+      "title" : "Mediana S/15.5",
+      "type" : "postback"
+    }, {
+      "payload" : "Familiar",
+      "title" : "Familiar S/30",
+      "type" : "postback"
+    } ],
+    "costos" : {
+      "Familiar" : 30,
+      "Mediana" : 15
     }
   }
 }
