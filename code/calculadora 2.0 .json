@@ -1,0 +1,20 @@
+var costo = inputs.costo;
+var envio = inputs.envio;
+var final = 1;
+var cantidadplato = inputs.cantidadplato;
+var cantidadnumero = inputs.cantidadnumero;
+
+if (cantidadnumero==""){
+final = cantidadplato
+}else{
+final = cantidadnumero
+}
+var suma= 3.99;
+var total = final*costo;
+var adicional = total + suma;
+resolve({
+  "final": final,
+  "total": total,
+  "suma": suma,
+  "adicional": adicional
+});
