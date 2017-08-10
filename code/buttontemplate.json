@@ -1,22 +1,20 @@
 {
-    "attachment":{
-      "type":"template",
-      "payload":{
-        "template_type":"button",
-        "text":"What do you want to do next?",
-        "buttons":[
-          {
-            "type":"web_url",
-            "url":"https://petersapparel.parseapp.com",
-            "title":"Show Website"
-          },
-          {
-            "type":"postback",
-            "title":"Start Chatting",
-            "payload":"USER_DEFINED_PAYLOAD"
-          }
-        ]
-      }
-    }
-  }
+
+       "elements":[
+         {
+           "title":"{{context.data__parameters__restaurantes}}",
+           "subtitle":"{{context.data__parameters__platos}}",
+           "quantity":{{context.data__parameters__number}},
+           "price":{{precio_extra.data}},
+           "currency":"PEN"
+         }
+       ],
+       "summary":{
+         "subtotal":{{calculadora.result__total}},
+         "shipping_cost":{{calculadora.result__suma}},
+         "total_cost":{{calculadora.result__adicional}}
+       }
+},
+{
+  "place":"{{firebase_restu_pedido.data__place}}"
 }
